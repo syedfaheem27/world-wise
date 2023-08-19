@@ -35,6 +35,18 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Srinagar",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2028-10-31T15:59:59.138Z",
+      "notes": "Most beautiful city!",
+      "position": {
+        "lat": 334.0837,
+        "lng": 74.7973
+      },
+      "id": 73930377
     }
   ]
 }
