@@ -1,4 +1,4 @@
-import { createContext, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
 
 const FAKE_USER = {
   name: "Jack",
@@ -57,4 +57,11 @@ export default function AuthProvider({ children }) {
       {children}
     </AuthContext.Provider>
   );
+}
+
+export function useAuth() {
+  const context = useContext(AuthContext);
+  if (context === undefined)
+    throw new Error("AuthContext used outside of a provider");
+  return context;
 }
