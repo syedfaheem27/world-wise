@@ -10,7 +10,7 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import { useCities } from "../contexts/CitiesContext";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useGeolocation } from "../hooks/useGeolocation";
 import { useGeoCoding } from "../hooks/useGeocoding";
 const Map = () => {
