@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Static backend",
+  "scripts": {
+    "start": "json-server --watch ./cities.json --port 9000 "
+  },
+  "author": "syed faheem",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

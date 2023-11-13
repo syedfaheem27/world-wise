@@ -4,7 +4,7 @@ const FAKE_USER = {
   name: "Faheem",
   email: "faheem@example.com",
   password: "faheem",
-  avatar: "https://i.pravatar.cc/100?u=zz",
+  avatar: "/own-img.jpeg",
 };
 
 function reducer(state, action) {
